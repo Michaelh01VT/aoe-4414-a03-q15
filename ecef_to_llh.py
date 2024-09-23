@@ -1,13 +1,14 @@
 # ecef_to_llh.py
 #
-# Usage: python3 script_name.py arg1 arg2 ...
-# Text explaining script usage
+# Usage: python3 ecef_to_llh.py rX rY rZ
+# Converts ECEF coordinates to LLH cooardinates
 # Parameters:
-# arg1: description of argument 1
-# arg2: description of argument 2
+# arg1: ECEF X coordinate (km)
+# arg2: ECEF Y coordinate (km)
+# arg3: ECEF Z coordinate (km)
 # ...
 # Output:
-# A description of the script output
+# Latitude (ϕ), Longitude (λ), Height above ellipsoid (hae)
 #
 # Written by Michael Hoffman
 # Other contributors: None
